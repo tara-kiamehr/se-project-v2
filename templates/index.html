@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="{% static 'img/logo (2).png' %}" type="image/x-icon">
-  <title>faracode team | تیم فراکد</title>
+  <title>faracode team | سایت فروشگاهی</title>
   <!-- rtl -->
   <link rel="stylesheet" href="{% static 'css/bootstrap-rtl.min.css' %}">
   <!-- main css -->
@@ -29,7 +29,7 @@
     <nav class="navbar navbar-expand-md container">
       <a href="#" class="navbar-brand font-weight-bold">
         <img src="{% static 'img/logo (2).png' %}" alt="">
-        فراکد
+        فروشگاه
       </a>
       <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#mynav" aria-controls="mynav"
         aria-expanded="false" aria-label="toggle-navigation">
@@ -46,8 +46,7 @@
           <a class="nav-link nav-item pr-3 options d-md-none" data-text="خدمات" href="#options"> خدمات</a>
           <a class="nav-link nav-item pr-3 conect" data-text="تماس با ما" href="#conect"> تماس با ما</a>
         </ul>
-        <button type="button" class="btn login-btn animate-btn" data-toggle="modal" data-target="#exampleModal">پروژه ای
-          دارید؟</button>
+        <button type="button" class="btn login-btn animate-btn" data-toggle="modal" data-target="#exampleModal">محصولی برای فروش دارید؟</button>
       </div>
     </nav>
   </section>
@@ -58,15 +57,12 @@
       <div class="row">
         <div class="col-md-10 col-lg-6 my-5">
           <div class="head-special">
-            <h3 class="rounded">بگذار کدها به جای تو کار کنند</h3>
-          </div>
-          <div class="head-name">
-            <h1 class="head-name-faracode">گروه برنامه نویسی فراکد</h1>
+            <h3 class="rounded">"یه عنوان دلخواه"</h3>
           </div>
           <div class="head-text">
             <p class="text-justify">
-              گروه برنامه نویسی فراکد متشکل از برنامه نویسان مجرب و متعهد آماده ی پیاده سازی و ساخت انواع اپلیکیشن ها و
-              وبسایت های شرکتی و فروشگاهی با بالاترین کیفیت و مناسب ترین قیمت.
+              سایت فروشگاهی ما متشکل از بازاریابانی مجرب و متعهد فروش انواع محصولات
+              شرکتی و فروشگاهی با بالاترین کیفیت و مناسب ترین قیمت.
             </p>
           </div>
           <div class="head-btn-group">
@@ -85,10 +81,10 @@
   <section class="activity container py-4 section" id="features">
     <div class="activity-head">
       <span class="d-inline-block font-weight-bold rounded activity-info my-2">فعالیت های ما در یک نگاه</span>
-      <h1 class="activity-name"> گروه برنامه نویسی
-        <span class="font-weight-bold">فراکد</span>
+      <h1 class="activity-name"> سایت فروشگاهی
+        <span class="font-weight-bold">"اسم دلخواه"</span>
       </h1>
-      <p class="activity-text">تیم برنامه نویسی فراکد پل میان شما و تکنولوژی!</p>
+      <p class="activity-text"> پل میان شما و بازار!</p>
     </div>
     <div class="row py-5">
       <div class="col-12 col-md-6 col-lg-3 py-3">
@@ -160,8 +156,7 @@
   <section class="container projectss py-5 section mt-4" id="projects">
     <div class="text-center">
       <span class="d-inline-block rounded font-weight-bold activity-info my-2">پروژه های خلاقانه</span>
-      <h1 class="activity-name"> آخرین کارهای ما</h1>
-      <p class="activity-text">موارد زیر نمونه کوچکی از فعالیت های ما در حوزه طراحی و ساخت اپلیکیشن و وبسایت است.</p>
+      <h1 class="activity-name"> آخرین محصولات ما</h1>
     </div>
     <div class="animation-project d-none d-md-inline-block"></div>
     <div class="row gallery">
@@ -219,69 +214,7 @@
     </div> -->  
   </section>
 
-  <!-- we contant-->
-  <section class="container contant">
-    <div class="row d-flex align-items-center">
-      <div class="col-12 col-lg-6">
-        <span class="d-inline-block font-weight-bold rounded contant-info my-2">محدودیت زمانی را از بین ببرید!</span>
-        <h5 class="contant-name"> ما کمک می کنیم همیشه در دسترس باشید! </h5>
-        <p class="text-justify contant-text">
-          با داشتن وب سایت در 24 ساعت شبانه‌روز، 7روز هفته در کنار مشتری هستید. در واقع وب سایت شما نماینده‌ی شماست حتی
-          در ساعت‌هایی که شما در حال استراحت هستید وب سایت شما در حال معرفی خدمات و محصولات شما به مشتری است.
-        </p>
-      </div>
-      <div class="col-12 col-lg-6">
-        <img src="{% static 'img/video-bg.jpg' %}" alt="video-bg" class="img-fluid video-bg">
-        <div class="video-icon">
-          <div class="btn video-btn" onclick="playvideo()" id="videobtn">
-            <i class="fa fa-play"></i>
-          </div>
-        </div>
-        <div class="video">
-          <video width="100%" id="myVideo" controls loop autoplay>
-            <source src="{% static 'video/video1.mp4' %}" type="video/mp4">
-          </video>
-          <img src="{% static 'img/close.png' %}" class="close-btn" onclick="stopPlayer()" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- options -->
-  <section class="container my-5 options d-none d-md-block" id="optionss">
-    <div class="row justify-content-around">
-      <div class="item-opt">
-        <div class="opt my-2">
-          <div class="wrapper">
-            <img src="{% static 'img/3.png' %}" alt="option" class="img-fluid">
-            <div class="title-opt text-center">
-              بررسی نقاط قوت و ضعف شما
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="item-opt">
-        <div class="opt my-2">
-          <div class="wrapper">
-            <img src="{% static 'img/2.png' %}" alt="option" class="img-fluid">
-            <div class="title-opt text-center">
-              بررسی نیاز و پیش بینی نیاز بازار
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="item-opt">
-        <div class="opt my-2">
-          <div class="wrapper">
-            <img src="{% static 'img/1.png' %}" alt="option" class="img-fluid">
-            <div class="title-opt text-center">
-              مشاوره و راهنمایی
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 <!--form 
       <div class="col-12 col-lg-6">
         <form method="post">
@@ -306,7 +239,7 @@
       <div class="row d-flex align-items-center">
         <div class="col-12 col-md-4 d-flex">
           <a href="#" class="font-weight-bold footer-brand">
-            <img src="{% static 'img/logo (2).png' %}" alt="logo">فراکد
+            <img src="{% static 'img/logo (2).png' %}" alt="logo">سایت فروشگاهی "اسم دلخواه"
           </a>
         </div>
         <div class="col-12 col-md-4 my-4 my-md-0">
