@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'product.apps.ProductConfig'
+    'product.apps.ProductConfig',
+    'contactus_app.apps.ContactusAppConfig',
 ]
 
 MIDDLEWARE = [
