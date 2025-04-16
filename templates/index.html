@@ -165,6 +165,21 @@
     </div>
     <div class="animation-project d-none d-md-inline-block"></div>
     <div class="row gallery">
+    {% for object in products %}
+      <div class="col-12 col-md-6 col-lg-4 py-4 d-flex align-items-center justify-content-center gallery-img">
+        <div class="img-pro">
+          <div class="addition">
+            <img src="{{ object.Image.url }}" alt="" class="img-fluid pro-photo">
+            <i class="fas fa-search pro-link"></i>
+          </div>
+          <div class="py-2 pro-name-activity w-100 text-center">
+            <a href="{{object.address}}" class="pro-name font-weight-bold text-center">{{object.title}}</a>
+            <p class="pro-activity">{{ object.description }}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+      <!--
       <div class="col-12 col-md-6 col-lg-4 py-4 d-flex align-items-center justify-content-center gallery-img">
         <div class="img-pro">
           <div class="addition">
@@ -201,7 +216,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->  
   </section>
 
   <!-- we contant-->
